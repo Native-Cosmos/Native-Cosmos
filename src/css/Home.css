@@ -1,0 +1,89 @@
+/* Homepage.css */
+
+.homepage {
+  background-color: #000; /* Black */
+  color: #fff; /* White */
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+  grid-gap: 20px; /* Adjust the gap between columns */
+}
+
+.left {
+  background-color: #673ab7; /* Purplish Color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  background-color: #000; /* Black */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  width: 80%;
+}
+
+.text-container {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.apply-button,
+.discord-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.apply-button {
+  background-color: #673ab7; /* Purplish Color */
+}
+
+.discord-button {
+  background-color: #000; /* Black */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column for mobile view */
+  }
+
+  .right {
+    background-color: #000; /* Black */
+  }
+
+  .content {
+    width: 100%;
+  }
+}
