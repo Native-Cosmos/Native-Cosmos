@@ -4,19 +4,11 @@ import { Application } from '@splinetool/runtime';
 const My3Dcomponent = () => {
   useEffect(() => {
 
-
-//     import { Application } from '@splinetool/runtime';
-
-// const canvas = document.getElementById('canvas3d');
-// const app = new Application(canvas);
-// app.load('https://prod.spline.design/FlrXrqNjJ4yaXlhM/scene.splinecode');
-
-
     const canvas = document.getElementById('canvas3d');
 
     if (canvas) {
       const app = new Application(canvas);
-      app.load('https://prod.spline.design/FlrXrqNjJ4yaXlhM/scene.splinecode');
+      app.load('https://prod.spline.design/eehaN3kDSPoWISYR/scene.splinecode');
     }
   }, []);
 
