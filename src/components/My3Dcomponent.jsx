@@ -14,7 +14,7 @@ const My3Dcomponent = () => {
 
   return (
     <div>
-      <canvas id="canvas3d" width="1000" height="1300"></canvas>
+      <canvas id="canvas3d" width="1200" height="700"></canvas>
     </div>
   );
 };
