@@ -1,0 +1,23 @@
+.about {
+  max-width: 700px;
+  margin: auto;
+  text-align: justify; /* Optional: Justify text within the container */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about-heading {
+    margin-bottom: 1.5em;
+}
+
+.about.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
