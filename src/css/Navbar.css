@@ -3,10 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  /* background-color: #66FCF1; */
-  background-color: black;
-  opacity: 0; /* Start with opacity 0 for the fade-in effect */
-  animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+  /* background-color: #000000; */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1),
+    #923CB5
+  );
+  opacity: 0.6;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 .logo img {
