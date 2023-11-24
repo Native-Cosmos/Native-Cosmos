@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="homepage">
       <div className="background">
-        <My3Dcomponent />
+        {/* <My3Dcomponent /> */}
       </div>
       <div className="overlay-content">
         {/* <h1>Your Punchline Goes Here</h1>

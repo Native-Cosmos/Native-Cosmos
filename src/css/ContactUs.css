@@ -1,0 +1,122 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-us h1 {
+    margin-bottom: 1.5em;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-card {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  padding: 5em;
+  border-radius: 40px;
+  border: solid white 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.logo-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding: 3px 3px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.social-icons svg {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons svg:hover {
+  color: #923cb5;
+}
+
+.input-section {
+  width: 100%;
+  position: relative;
+}
+
+input {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #923cb5, #a9c5f9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #a9c5f9, #923cb5);
+}
+
+/* 
+button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #00f, #a9c5f9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #a9c5f9, #00f);
+} */
