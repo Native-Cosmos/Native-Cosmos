@@ -7,3 +7,17 @@ body {
   color: #fff; /* White */
   overflow-x: hidden; /* Fix horizontal overflow */
 }
+
+
+button {
+  background: linear-gradient(to right, #923cb5, #a9c5f9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #a9c5f9, #923cb5);
+}

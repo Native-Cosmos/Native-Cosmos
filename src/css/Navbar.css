@@ -3,12 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  /* background-color: #000000; */
-  background: linear-gradient(
+  /* background-color: #923CB5; */
+  background: linear-gradient(to right, #923cb5, #a9c5f9);
+  /* background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.1),
     #923CB5
-  );
+  ); */
   opacity: 0.6;
   animation: fadeIn 1s ease-in-out forwards;
 }
