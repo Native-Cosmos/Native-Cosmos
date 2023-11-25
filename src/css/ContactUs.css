@@ -87,6 +87,10 @@ input {
   margin-bottom: 10px;
 }
 
+.social-icons svg {
+  color: white;
+}
+
 /* Style for the submit button */
 .submit-button {
   width: 100%;
@@ -99,9 +103,6 @@ input {
   transition: background 0.3s ease-in-out;
 }
 
-.submit-button:hover {
-  background: linear-gradient(to right, #a9c5f9, #923cb5);
-}
 
 /* 
 button {
