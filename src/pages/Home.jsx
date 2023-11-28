@@ -4,16 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faCheck, faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import "../css/Home.css";
+import { FaInfinity } from "react-icons/fa";
 
 const Home = () => {
   return (
     <div className="homepage">
       <div className="background">
-        <My3Dcomponent />
+        {/* <My3Dcomponent /> */}
       </div>
       <div className="overlay-content">
-        <h1 className="hover-effect">Your Punchline Goes Here</h1>
-        <h2 className="hover-effect">Community Name</h2>
+        <h1 className="hover-effect">Explore the <FaInfinity /> Posibilities</h1>
+        <h2 className="hover-effect">Native Cosmos</h2>
         <p className="hover-effect">Upcoming Hackathon Name</p>
         <div className="buttons">
           <button className="apply-button">
