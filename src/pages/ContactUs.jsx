@@ -16,7 +16,7 @@ const ContactUs = () => {
         <div className="contact-card">
           <div className="logo-section">
             <img
-              src="https://www.shutterstock.com/image-illustration/contact-us-stack-colorful-cubes-260nw-1549177559.jpg"
+              src="https://media.istockphoto.com/id/1161814148/pt/vetorial/contact-us-purple-background.jpg?s=170667a&w=0&k=20&c=8UDPLStmsmYCWaCv_2MINcGtqBsUSF1zfPx2fTG3O-o="
               alt="Company Logo"
             />
           </div>

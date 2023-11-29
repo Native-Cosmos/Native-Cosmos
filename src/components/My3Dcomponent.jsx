@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { Application } from "@splinetool/runtime";
+import Vid from '../data/video/background2.mp4'
 
 const My3Dcomponent = () => {
   // useEffect(() => {
@@ -23,40 +24,91 @@ const My3Dcomponent = () => {
   //   }
   // }, []);
 
+  // useEffect(() => {
+  //   const canvas = document.getElementById("canvas3d");
+
+  //   if (canvas) {
+  //     let app;
+
+  //     const load3DModel = async () => {
+  //       try {
+  //         app = new Application(canvas);
+  //         await app.load(
+  //           "https://prod.spline.design/lI0Ti84haSYtQMvM/scene.splinecode"
+  //         );
+  //       } catch (error) {
+  //         console.error("Error loading 3D model:", error);
+  //       }
+  //     };
+
+  //     load3DModel();
+
+  //     return () => {
+  //       if (app && typeof app.unload === "function") {
+  //         app.unload();
+  //       }
+
+  //       if (app) {
+  //         app.dispose();
+  //       }
+  //     };
+  //   }
+  // }, []);
+
+  const videoRef = useRef(null);
+
   useEffect(() => {
-    const canvas = document.getElementById("canvas3d");
+    const video = videoRef.current;
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
 
-    if (canvas) {
-      let app;
+    document.body.appendChild(canvas);
 
-      const load3DModel = async () => {
-        try {
-          app = new Application(canvas);
-          await app.load(
-            "https://prod.spline.design/lI0Ti84haSYtQMvM/scene.splinecode"
-          );
-        } catch (error) {
-          console.error("Error loading 3D model:", error);
-        }
-      };
+    const resizeCanvas = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
 
-      load3DModel();
+    resizeCanvas();
 
-      return () => {
-        if (app && typeof app.unload === "function") {
-          app.unload();
-        }
+    window.addEventListener("resize", resizeCanvas);
 
-        if (app) {
-          app.dispose();
-        }
-      };
-    }
+    const drawFrame = () => {
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      requestAnimationFrame(drawFrame);
+    };
+
+    video.addEventListener("play", drawFrame);
+
+    video.play();
+
+    return () => {
+      window.removeEventListener("resize", resizeCanvas);
+      video.removeEventListener("play", drawFrame);
+    };
   }, []);
 
   return (
     <div>
-      <canvas id="canvas3d" width="800" height="600"></canvas>
+      <video
+        ref={videoRef}
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          objectFit: "cover",
+          height: "100%",
+          zIndex: -1,
+        }}
+      >
+        <source src={Vid} type="video/mp4" />
+      </video>
+      {/* <canvas id="canvas3d" width="800" height="600"></canvas> */}
     </div>
   );
 };

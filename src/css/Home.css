@@ -97,7 +97,7 @@ p {
   overflow: hidden;
 }
 
-.background {
+/* .background {
   position: fixed;
   top: 0;
   left: 0;
@@ -106,27 +106,16 @@ p {
   z-index: -1;
   opacity: 0.6s;
   backdrop-filter: blur(60px);
-}
+} */
 
 .overlay-content {
   text-align: center;
   color: rgb(36, 15, 221);
-  max-width: 700px;
+  max-width: 800px;
   padding: 20px;
   /* background-color: rgba(255, 255, 255, 0.9); */
   border-radius: 10px;
 }
-
-/* .hover-effect {
-  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-.hover-effect:hover {
-  transform: scale(1.1);
-  background: linear-gradient(to right,rgba(0, 0, 0, 0.7), rgba(103, 58, 183, 0.9));
-} */
 
 h1,
 h2,
