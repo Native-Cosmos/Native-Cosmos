@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import Vid from '../data/video/background2.mp4'
+import Vid from "../data/video/background2.mp4";
 
 const My3Dcomponent = () => {
   // useEffect(() => {
@@ -54,42 +54,42 @@ const My3Dcomponent = () => {
   //   }
   // }, []);
 
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    const video = videoRef.current;
-    const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d");
+  // useEffect(() => {
+  //   const video = videoRef.current;
+  //   const canvas = document.createElement("canvas");
+  //   const ctx = canvas.getContext("2d");
 
-    document.body.appendChild(canvas);
+  //   document.body.appendChild(canvas);
 
-    const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
+  //   const resizeCanvas = () => {
+  //     canvas.width = window.innerWidth;
+  //     canvas.height = window.innerHeight;
+  //   };
 
-    resizeCanvas();
+  //   resizeCanvas();
 
-    window.addEventListener("resize", resizeCanvas);
+  //   window.addEventListener("resize", resizeCanvas);
 
-    const drawFrame = () => {
-      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-      requestAnimationFrame(drawFrame);
-    };
+  //   const drawFrame = () => {
+  //     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  //     requestAnimationFrame(drawFrame);
+  //   };
 
-    video.addEventListener("play", drawFrame);
+  //   video.addEventListener("play", drawFrame);
 
-    video.play();
+  //   video.play();
 
-    return () => {
-      window.removeEventListener("resize", resizeCanvas);
-      video.removeEventListener("play", drawFrame);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("resize", resizeCanvas);
+  //     video.removeEventListener("play", drawFrame);
+  //   };
+  // }, []);
 
   return (
     <div>
-      <video
+      {/* <video
         ref={videoRef}
         autoPlay
         loop
@@ -106,7 +106,23 @@ const My3Dcomponent = () => {
         }}
       >
         <source src={Vid} type="video/mp4" />
-      </video>
+      </video> */}
+      <img
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          objectFit: "cover",
+          height: "100%",
+          zIndex: -1,
+        }}
+        // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQ_YtDzWrVffoICL48qjhLGqOKLb8b_R-fQ&usqp=CAU"
+        // src="https://cdn.wallpapersafari.com/58/28/b8mlCR.jpg"
+        // src="https://i.pinimg.com/originals/5b/fa/c6/5bfac6a727971be0fb3f4012afae0302.jpg"
+        src="https://wallpapercrafter.com/sizes/2560x1440/5380-lines-waves-abstraction-dark-purple-4k.jpg"
+        alt=""
+      />
       {/* <canvas id="canvas3d" width="800" height="600"></canvas> */}
     </div>
   );
