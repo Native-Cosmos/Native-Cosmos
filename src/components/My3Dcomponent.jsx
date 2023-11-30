@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import { Application } from "@splinetool/runtime";
 import Vid from '../data/video/background2.mp4'
 
 const My3Dcomponent = () => {

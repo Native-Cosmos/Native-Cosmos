@@ -1,7 +1,6 @@
 import './App.css';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-import My3Dcomponent from './components/My3Dcomponent';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
