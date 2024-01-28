@@ -2,38 +2,6 @@ import React, { useEffect } from "react";
 import "../css/About.css";
 
 const About = () => {
-  useEffect(() => {
-    const about = document.querySelector(".about");
-
-    function isElementInViewport(el) {
-      const rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <=
-          (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <=
-          (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-
-    function handleScroll() {
-      if (isElementInViewport(about)) {
-        about.classList.add("fade-in");
-        window.removeEventListener("scroll", handleScroll);
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    // Initial check in case the element is already in view on page load
-    handleScroll();
-
-    // Cleanup event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <div className="about">
       <h1 className="about-heading">About Us</h1>

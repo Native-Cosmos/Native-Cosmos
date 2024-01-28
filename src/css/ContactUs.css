@@ -1,30 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .parent {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  margin-top: 16px;
+  border-radius: 6px;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  padding: 10px 20px 20px;
+  box-sizing: border-box;
 }
 
+.map_bind {
+  /* margin-top: 50px; */
+  height: 26em;
+  border-radius: 60px;
+  overflow: hidden;
+}
 
 section {
   position: relative;
   z-index: 3;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding: 3em 3em;
 }
 
 .container {
-  max-width: 1080px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -37,17 +47,12 @@ section {
 }
 
 .section-header h2 {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
-  font-size: 50px;
   margin-bottom: 20px;
 }
 
-.section-header p {
-  color: #FFF;
-}
-
-.row  {
+.row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -66,7 +71,7 @@ section {
 .contact-info-icon {
   height: 70px;
   width: 70px;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   border-radius: 50%;
 }
@@ -87,23 +92,19 @@ section {
 }
 
 .contact-info-content p {
-  color: #FFF;
+  color: #fff;
   font-size: 1em;
 }
 
 .contact-form {
-  background-color: #fff;
   padding: 40px;
-  width: 45%;
+  width: 100%;
   padding-bottom: 20px;
   padding-top: 20px;
-}
-
-.contact-form h2 {
-  font-weight: bold;
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .contact-form .input-box {
@@ -113,7 +114,7 @@ section {
 }
 
 .contact-form .input-box input,
-.contact-form .input-box textarea{
+.contact-form .input-box textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -136,17 +137,16 @@ section {
 }
 
 .contact-form .input-box input:focus ~ span,
-.contact-form .input-box textarea:focus ~ span{
+.contact-form .input-box textarea:focus ~ span {
   color: #e91e63;
   font-size: 12px;
   transform: translateY(-20px);
 }
 
-.contact-form .input-box input[type="submit"]
-{
+.contact-form .input-box input[type="submit"] {
   width: 100%;
   background: #00bcd4;
-  color: #FFF;
+  color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -155,9 +155,8 @@ section {
   transition: 0.5s;
 }
 
-.contact-form .input-box input[type="submit"]:hover
-{
-  background: #FFF;
+.contact-form .input-box input[type="submit"]:hover {
+  background: #fff;
   color: #00bcd4;
 }
 
@@ -166,23 +165,41 @@ section {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .row {
     flex-direction: column;
   }
-  
+
   .contact-info {
     margin-bottom: 40px;
     width: 100%;
   }
-  
+
   .contact-form {
     width: 100%;
   }
 }
 
-.map_bind{
- margin-top: 50px;
-  border-radius: 30px;
-  overflow: hidden;
+
+.social-icons {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  color: white;
+}
+
+.social-icons svg {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons svg:hover {
+  color: #923cb5;
+}
+
+.social-icons svg {
+  color: white;
 }
