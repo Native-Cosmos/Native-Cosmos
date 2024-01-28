@@ -118,9 +118,9 @@ const My3Dcomponent = () => {
           zIndex: -1,
         }}
         // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQ_YtDzWrVffoICL48qjhLGqOKLb8b_R-fQ&usqp=CAU"
-        // src="https://cdn.wallpapersafari.com/58/28/b8mlCR.jpg"
+        src="https://cdn.wallpapersafari.com/58/28/b8mlCR.jpg"
         // src="https://i.pinimg.com/originals/5b/fa/c6/5bfac6a727971be0fb3f4012afae0302.jpg"
-        src="https://wallpapercrafter.com/sizes/2560x1440/5380-lines-waves-abstraction-dark-purple-4k.jpg"
+        // src="https://wallpapercrafter.com/sizes/2560x1440/5380-lines-waves-abstraction-dark-purple-4k.jpg"
         alt=""
       />
       {/* <canvas id="canvas3d" width="800" height="600"></canvas> */}
