@@ -1,3 +1,4 @@
+
 .about {
   max-width: 700px;
   margin: auto;
@@ -7,7 +8,7 @@
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; */
   display: flex;
   flex-direction: column;
-  margin-bottom: 12em;
+  margin-bottom: 10em;
 }
 
 h1 {
@@ -15,7 +16,8 @@ h1 {
 }
 
 .about-heading {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+    font-size: 50px;
 }
 
 /* .about.fade-in {
