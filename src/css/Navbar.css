@@ -11,9 +11,9 @@
 }
 
 .navbar.scrolled {
-  background-color: rgb(160, 119, 207);
-  opacity: 1; 
-  height: 20px;
+  background-color: #4B0082;
+  /* opacity: 1;  */
+  height: 40px;
 }
 
 .logo img {
