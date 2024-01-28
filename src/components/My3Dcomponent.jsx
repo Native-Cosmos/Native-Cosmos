@@ -112,6 +112,7 @@ const My3Dcomponent = () => {
           position: "fixed",
           top: 0,
           left: 0,
+          opacity: 0.5,
           width: "100%",
           objectFit: "cover",
           height: "100%",

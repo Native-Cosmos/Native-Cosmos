@@ -6,24 +6,19 @@
   align-items: center;
   padding: 10px 20px;
   background-color: transparent;
-  /* background-color: #923CB5; */
-  /* background: linear-gradient(to right, #923cb5, #a9c5f9); */
-  /* background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.1),
-    #923CB5
-  ); */
-  opacity: 0.6;
-  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 1;
+  transition: background-color 0.5s ease, opacity 0.5s ease;
 }
 
-.nav_black {
-  /* background-color: #121113; */
+.navbar.scrolled {
+  background-color: rgb(160, 119, 207);
+  opacity: 1; 
+  height: 20px;
 }
 
 .logo img {
-  max-width: 100%;
-  height: auto;
+  width: 60px;
+  height: 60px;
 }
 
 .menu ul {

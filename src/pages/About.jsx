@@ -38,23 +38,7 @@ const About = () => {
     <div className="about">
       <h1 className="about-heading">About Us</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A incidunt
-        corporis modi magni placeat pariatur. Tenetur, aspernatur quaerat sed
-        modi non, laboriosam temporibus nisi esse dolores explicabo natus facere
-        asperiores eligendi nulla quisquam, perferendis nobis excepturi aperiam
-        assumenda distinctio omnis labore. Officia ipsum quo facilis pariatur
-        unde consequatur a doloremque quam. Itaque, consequuntur dolor accusamus
-        libero nostrum tempore totam adipisci placeat quaerat ab veritatis
-        quidem ullam culpa id alias. Est ducimus modi ipsum non. Quos nobis ea
-        animi quidem recusandae. Ipsa dolorem, ut necessitatibus ad ea vero
-        magni earum, modi culpa, aperiam minima. Eius in hic nesciunt magnam
-        autem ex, reprehenderit tempore recusandae quasi quaerat beatae, error
-        laborum tenetur voluptatibus architecto odit perferendis dolorem?
-        Excepturi consequuntur et architecto explicabo modi, adipisci nostrum
-        dolorem atque distinctio veritatis numquam quia illum deleniti.
-        Praesentium qui, deserunt a sunt cupiditate aperiam accusamus possimus
-        tenetur cumque voluptas dicta culpa, molestiae ipsam! Ut unde odio
-        eaque.
+      At Native Cosmos, we're a dynamic community of tech enthusiasts joined by a shared love for innovation. Embracing diversity and creativity, we cultivate an environment where ideas thrive and connections flourish. Our mission spans the vast realms of technology, empowering each member to reach new heights, from coding to cutting-edge advancements. United, we celebrate diverse perspectives, aiming to make a cosmic impact in the tech world. Join us on this journey of discovery, collaboration, and limitless possibilities as we navigate the ever-expanding universe of Native Cosmos. Our community transcends boundaries, delving into emerging technologies, hosting knowledge-sharing events, and promoting continuous learning. Committed to inclusivity, we provide a platform for beginners and experts alike to thrive. Native Cosmos is more than a community; it's a dynamic ecosystem where passion meets purpose. Together, we ride the waves of technological evolution, pushing boundaries and crafting a narrative that defines our collective impact on the digital frontier. Join us, and let's forge the future of tech innovation as one interconnected force in the expansive universe of Native Cosmos.
       </p>
     </div>
   );

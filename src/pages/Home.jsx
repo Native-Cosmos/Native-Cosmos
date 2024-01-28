@@ -26,7 +26,7 @@ const Home = () => {
           </button>
           <button className="discord-button">
             <FontAwesomeIcon icon={faDiscord} />
-            Join Discord
+           <a  href="https://discord.gg/ER9xsCrKQu" style={{textDecoration:'none',color:'white'}}>Join Discord </a> 
           </button>
         </div>
       </div>
