@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from "react";
-import Vid from "../data/video/background2.mp4";
+import React from "react";
 
 const My3Dcomponent = () => {
   // useEffect(() => {

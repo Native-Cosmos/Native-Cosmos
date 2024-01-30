@@ -9,80 +9,71 @@ const FAQ = () => {
         <div className="accordion-item">
           <input type="checkbox" id="accordion1" />
           <label for="accordion1" className="accordion-item-title">
-            <span className="icon"></span>What is SEO, and why is it important for
-            online businesses?
+            <span className="icon"></span>How can I get involved in Native
+            Cosmos?
           </label>
           <div className="accordion-item-desc">
-            SEO, or Search Engine Optimization, is the practice of optimizing a
-            website to improve its visibility on search engines like Google. It
-            involves various techniques to enhance a site's ranking in search
-            results. SEO is crucial for online businesses as it helps drive
-            organic traffic, increases visibility, and ultimately leads to
-            higher conversions.
+            Joining Native Cosmos is easy! Simply navigate to our website and
+            explore the "Get Involved" section. You can participate in
+            hackathons, contribute to projects on GitHub, or engage in
+            discussions with fellow members.
           </div>
         </div>
 
         <div className="accordion-item">
           <input type="checkbox" id="accordion2" />
           <label for="accordion2" className="accordion-item-title">
-            <span className="icon"></span>How long does it take to see results from
-            SEO efforts?
+            <span className="icon"></span>Are there any prerequisites to join
+            Native Cosmos?
           </label>
           <div className="accordion-item-desc">
-            The timeline for seeing results from SEO can vary based on several
-            factors, such as the competitiveness of keywords, the current state
-            of the website, and the effectiveness of the SEO strategy.
-            Generally, it may take several weeks to months before noticeable
-            improvements occur. However, long-term commitment to SEO is
-            essential for sustained success.
+            Native Cosmos is open to all tech enthusiasts, regardless of skill
+            level or background. Whether you're a beginner or an experienced
+            developer, you're welcome to join our community and contribute to
+            the exciting world of technology.
           </div>
         </div>
 
         <div className="accordion-item">
           <input type="checkbox" id="accordion3" />
           <label for="accordion3" className="accordion-item-title">
-            <span className="icon"></span>What are the key components of a
-            successful SEO strategy?
+            <span className="icon"></span>What types of events does Native
+            Cosmos organize?
           </label>
           <div className="accordion-item-desc">
-            A successful SEO strategy involves various components, including
-            keyword research, on-page optimization, quality content creation,
-            link building, technical SEO, and user experience optimization.
-            These elements work together to improve a website's relevance and
-            authority in the eyes of search engines.
+            Native Cosmos hosts a variety of events, including hackathons,
+            workshops, webinars, and networking sessions. These events provide
+            opportunities to enhance your skills, collaborate with peers, and
+            stay updated on the latest tech trends.
           </div>
         </div>
 
         <div className="accordion-item">
           <input type="checkbox" id="accordion4" />
           <label for="accordion4" className="accordion-item-title">
-            <span className="icon"></span>How does mobile optimization impact SEO?
+            <span className="icon"></span>How can I stay informed about upcoming
+            events and activities?
           </label>
           <div className="accordion-item-desc">
-            Mobile optimization is crucial for SEO because search engines
-            prioritize mobile-friendly websites. With the increasing use of
-            smartphones, search engines like Google consider mobile
-            responsiveness as a ranking factor. Websites that provide a seamless
-            experience on mobile devices are more likely to rank higher in
-            search results.
+            Stay connected by following us on social media platforms and
+            regularly checking our website for announcements. We also send out
+            newsletters with event details, so make sure to subscribe to stay
+            informed about all the exciting happenings in Native Cosmos.
           </div>
         </div>
 
         <div className="accordion-item">
           <input type="checkbox" id="accordion5" />
           <label for="accordion5" className="accordion-item-title">
-            <span className="icon"></span>What is the role of backlinks in SEO, and
-            how can they be acquired?
+            <span className="icon"></span>How can I connect with other members
+            of Native Cosmos?
           </label>
           <div className="accordion-item-desc">
-            Backlinks, or inbound links from other websites to yours, play a
-            significant role in SEO. They are considered a vote of confidence
-            and can improve a site's authority. Quality over quantity is crucial
-            when acquiring backlinks. Strategies for obtaining backlinks include
-            creating high-quality content, guest posting, reaching out to
-            industry influencers, and participating in community activities.
-            It's important to focus on natural and ethical link-building
-            practices.
+            Engage with our community on various platforms, including our
+            Discord channel and social media groups. Participate in discussions,
+            share your knowledge, and connect with like-minded individuals.
+            Native Cosmos is not just a community; it's a network of passionate
+            tech enthusiasts supporting each other's journeys.
           </div>
         </div>
       </div>
