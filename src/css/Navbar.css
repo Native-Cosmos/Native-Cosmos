@@ -11,9 +11,19 @@
 }
 
 .navbar.scrolled {
-  background-color: rgb(160, 119, 207);
-  opacity: 1; 
-  height: 20px;
+  /* background-color: rgb(160, 119, 207); */
+
+  background: #aa00d5;
+  background: -webkit-linear-gradient(to left, #aa00d5, #3e1177);
+
+  background: linear-gradient(to left, #aa00d5, #3e1177);
+
+
+
+
+
+  opacity: 1;
+  height: 50px;
 }
 
 .logo img {
