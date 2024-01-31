@@ -50,5 +50,19 @@ p {
   border-radius: 8px;
   color: #fff;
   /* background-color: #673ab7; */
-  background-color: #923cb5;
+  background: #aa00d5;
+  background: -webkit-linear-gradient(to left, #aa00d5, #3e1177);
+
+  background: linear-gradient(to left, #aa00d5, #3e1177);
+}
+
+.dc-icon {
+  transition: transform 0.4s ease-in-out;
+  padding-right: 7px;
+  transform: rotate(360deg);
+}
+
+.tick-icon,
+.dcIcon {
+  padding-right: 7px;
 }

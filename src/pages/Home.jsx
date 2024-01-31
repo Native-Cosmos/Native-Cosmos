@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import My3Dcomponent from "../components/My3Dcomponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
@@ -7,6 +7,15 @@ import "../css/Home.css";
 import { faInfinity } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   return (
     <div className="homepage">
       <div className="background">
@@ -21,12 +30,24 @@ const Home = () => {
         <div className="buttons">
           <button className="apply-button">
             {" "}
-            <FontAwesomeIcon icon={faCheckSquare} />
+            <FontAwesomeIcon icon={faCheckSquare} className="tick-icon" />
             Apply
           </button>
-          <button className="discord-button">
-            <FontAwesomeIcon icon={faDiscord} />
-           <a  href="https://discord.gg/ER9xsCrKQu" style={{textDecoration:'none',color:'white'}}>Join Discord </a> 
+          <button
+            className="discord-button"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <FontAwesomeIcon
+              icon={faDiscord}
+              className={`dcIcon ${isHovered ? "dc-icon" : ""}`}
+            />
+            <a
+              href="https://discord.gg/ER9xsCrKQu"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Join Discord{" "}
+            </a>
           </button>
         </div>
       </div>
