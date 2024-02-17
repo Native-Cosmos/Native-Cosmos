@@ -43,7 +43,7 @@ const Home = () => {
               className={`dcIcon ${isHovered ? "dc-icon" : ""}`}
             />
             <a
-              href="https://discord.gg/ER9xsCrKQu"
+              href="https://discord.gg/xNJ7RCDC5p"
               style={{ textDecoration: "none", color: "white" }}
             >
               Join Discord{" "}

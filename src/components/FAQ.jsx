@@ -4,7 +4,7 @@ import "../css/FAQ.css";
 const FAQ = () => {
   return (
     <>
-      <div className="accordion">
+      <div className="accordion" id="faq">
         <h1>Frequently Asked Questions</h1>
         <div className="accordion-item">
           <input type="checkbox" id="accordion1" />

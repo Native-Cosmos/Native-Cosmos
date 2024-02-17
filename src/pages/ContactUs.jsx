@@ -39,7 +39,7 @@ const ContactUs = () => {
     //   </div>
     // </div>
 
-    <section>
+    <section id ="contact">
       <div class="section-header">
         <div class="container">
           <h1>Contact Us</h1>
@@ -82,7 +82,7 @@ const ContactUs = () => {
               <a href="https://www.linkedin.com/company/native-cosmos/">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://discord.gg/ER9xsCrKQu">
+              <a href="https://discord.gg/xNJ7RCDC5p">
                 <FontAwesomeIcon icon={faDiscord} />
               </a>
             </div>

@@ -44,7 +44,7 @@ export const TeamMembers = () => {
     ],
   };
   return (
-    <div className="teamMembers">
+    <div className="teamMembers" id="team">
 
       <h1>Members</h1>  
       <div className="cards">

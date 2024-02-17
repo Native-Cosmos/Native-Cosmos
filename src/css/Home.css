@@ -1,8 +1,16 @@
+/* .homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+} */
+
 .homepage {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh);
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }

@@ -29,7 +29,6 @@ section {
   position: relative;
   z-index: 3;
   padding-top: 50px;
-  padding-bottom: 50px;
   padding: 3em 3em;
 }
 
@@ -37,6 +36,7 @@ section {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 6vh;
   padding-left: 20px;
   padding-right: 20px;
 }

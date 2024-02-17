@@ -22,45 +22,25 @@ const Navbar = () => {
     <>
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="logo">
-          <img
-            style={{ borderRadius: "50%" }}
-            src="nativecosmos.png"
-            alt="Logo"
-          />
+          <img style={{ borderRadius: "50%" }} src="finalLogo.png" alt="Logo" />
         </div>
         <div className="menu">
-          <ul>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#themes">Themes</a>
-            </li>
-            <li>
-              <a href="#sponsors">Sponsors</a>
-            </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            {/* <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/team">Team</Link>
-            </li>
-            <li>
-              <Link to="/faq">FAQ</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li> */}
-          </ul>
+          <p>
+            <a href="#">Home</a>
+          </p>
+          <p>
+            <a href="#about">About</a>
+          </p>
+          <p>
+            {" "}
+            <a href="#faq">FAQ</a>
+          </p>
+          <p>
+            <a href="#team">Team</a>
+          </p>
+          <p>
+            <a href="#contact">ContactUs</a>
+          </p>
         </div>
       </nav>
     </>
