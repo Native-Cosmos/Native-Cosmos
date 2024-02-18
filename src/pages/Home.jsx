@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import My3Dcomponent from "../components/My3Dcomponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { faCheck, faCheckSquare } from "@fortawesome/free-solid-svg-icons";
+import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import "../css/Home.css";
 import { faInfinity } from "@fortawesome/free-solid-svg-icons";
 
